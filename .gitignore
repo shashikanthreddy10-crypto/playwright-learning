@@ -1,0 +1,13 @@
+# PyCharm
+.idea/
+
+# Virtual Environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Playwright reports (optional)
+playwright-report/
+test-results/

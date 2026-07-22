@@ -1,7 +1,7 @@
 import pytest
 from playwright.sync_api import expect
 
-from fromScratch.pages.home import Home
+from pages.home import Home
 
 
 @pytest.mark.parametrize("login",[1,0],indirect=True)

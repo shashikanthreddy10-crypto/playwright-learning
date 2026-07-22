@@ -6,7 +6,7 @@ from playwright.sync_api import Playwright, expect
 from playwright.sync_api import sync_playwright
 
 
-from fromScratch.utils.data_reader import DataReader
+from utils.data_reader import DataReader
 
 def pytest_addoption(parser):
     parser.addoption("--browser",action = "store",default="chrome")

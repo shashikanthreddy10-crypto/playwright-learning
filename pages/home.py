@@ -1,4 +1,4 @@
-from fromScratch.pages.orders import Order
+from pages.orders import Order
 
 
 class Home:

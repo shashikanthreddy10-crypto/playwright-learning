@@ -12,7 +12,7 @@ class Order:
         return self.orders_verify
 
     def navigate_home_page(self):
-        from fromScratch.pages.home import Home
+        from pages.home import Home
         self.go_back_to_shop_button.click()
         return Home(self.page)
 
